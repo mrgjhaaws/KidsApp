@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kids Shapes</string>
+    <string name="shapes_view_description">Tap a shape to hear its name</string>
+</resources>
