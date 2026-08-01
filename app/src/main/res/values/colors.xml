@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Soft, friendly background color for the shapes screen -->
+    <color name="backgroundLight">#FFF9F0</color>
+</resources>
