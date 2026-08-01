@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple app theme based on AppCompat, no action bar needed for this full-screen kids app -->
+    <style name="Theme.KidsApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/backgroundLight</item>
+    </style>
+</resources>
