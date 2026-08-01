@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Root layout for MainActivity.
+    It's just a full-screen container holding our custom ShapesView,
+    which does all the drawing and touch handling.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundLight">
+
+    <!--
+        Our custom View, defined in ShapesView.java.
+        It fills the screen so shapes have plenty of room to be drawn
+        and tapped by little fingers.
+    -->
+    <com.example.kidsapp.ShapesView
+        android:id="@+id/shapesView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/shapes_view_description" />
+
+</FrameLayout>
